@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#modify_box {
+    border: solid;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    padding: 3%;
+}
+
+#modify_info {
+    margin-bottm: 10%;
+}
+
+#modify_info > li {
+    padding: 5% 0 0 0;
+}
+
+#modify_info > li > input {
+    width: 100%;
+}
+
+.modify_buttons > li > button {
+	width: 100%;
+	padding: 5px;
+	margin: 5px;
+}
+/* ------------------------------------------- */
+
+.modifyPopup, .deletePopup {
+   z-index: 9999;
+   background-color: #00ffcc;
+   position: absolute;
+   display: none;
+   text-align: center;
+   width: 60%;
+   height: 10%;
+   list-style: none;
+   left: 20%;
+   border: 3px solid black;
+   top: 40%;
+}
+
+#modifyPopupOkayBtn {
+	width: 80%;
+}

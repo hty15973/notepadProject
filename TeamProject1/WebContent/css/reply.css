@@ -1,0 +1,40 @@
+.replyBox {
+   border: 1px solid black;
+   position: absolute;
+   width: 60%;
+   height: 60%;
+   left: 20%;
+   margin-top: 10%;
+   z-index:3000;
+   background-color:#ffb3b3;
+   display:none;
+}
+
+.replyBox > ul {
+   list-style: none;
+
+}
+
+.replyBox > ul:nth-child(2) {
+	height: 70%
+}
+
+.replyBox > ul:nth-child(2) > li {
+	height: 100%;
+}
+
+.replyView {
+   width: 90%;
+   height: 100%;
+   resize: none;
+}
+
+.replyBox > ul > li > strong {
+	font-size: 15pt;
+}
+
+
+.replyBox > ul:nth-child(3){
+	text-align:center;
+	padding: 0;
+}

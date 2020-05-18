@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#login_box {
+    border: solid;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    padding: 3%;
+}
+
+#id_pass {
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+#id_pass > ul > li {
+	margin-bottom: 10%;
+}
+
+#id_pass > ul > li > input {
+	width: 100%;
+}
+
+.login_buttons>li>button, .login_buttons>li>input{
+	margin: 3% 0;
+	padding: 3%;
+    width: 100%;
+}
+
+/*-----------------------------------------------*/
+
+/* 로그인 화면 팝업 디자인 */
+
+#loginIDPopup, #loginPassPopup, #loginSuccessPopup {
+	border: solid;
+	width: 35%;
+	padding: 1%;
+	position: absolute;
+	left: 30%;
+	top: 40%;
+	background: #99ff99;
+}
+
+#loginIDPopup>ul>li, #loginPassPopup>ul>li, #loginSuccessPopup>ul>li {
+	text-align: center;
+} 
+
+#loginIDPopup button, #loginPassPopup button, #loginSuccessPopup button {
+	width: 80%;
+	height: 10%;
+}

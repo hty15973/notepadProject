@@ -1,0 +1,41 @@
+.editorToolbar{
+	border-bottom-style:solid;
+	background-color:#e60000;
+	position:fixed;
+	width:100%
+	
+}
+
+.addTheme{
+	bottom:0;
+	padding:0;
+	margin:0;
+	text-align:right;
+	border-style:outset;
+}
+
+.editorBox{
+	border-style:outset;
+	min-height:200px;
+	margin-bottom:20px;
+	z-index:10;
+}
+
+#title{
+	font-size:25pt;
+	text-decoration:underline;
+}
+#author{
+	margin-bottom:20px;
+}
+.addThemeBox{
+	float:right;
+	margin:0;
+	padding:0;
+}
+#regDate{
+	text-align:right;
+}
+.themeNameBox{
+	margin-top:30px;
+}

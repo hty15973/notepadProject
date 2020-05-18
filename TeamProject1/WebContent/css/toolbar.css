@@ -1,0 +1,138 @@
+.head2>div {
+	margin-top:20px;
+}
+
+.head2>div:nth-child(1) {
+	text-align: left;
+	float: left;
+	margin-left:10px;
+}
+
+.head2>div:nth-child(2) {
+	text-align: right;
+	float: right;
+	margin-right: 10px;
+}
+
+.head2>div:nth-child(3) {
+	text-align: right;
+	float: right;
+}
+.out{
+	right:0;
+	top:0;
+	float:right;
+	position:absolute;
+	height: 20px;
+	font-size: 9pt;
+}
+
+#SuperBox {
+	width: 100px;
+	background-color: #00ffcc;
+	border: 3px solid #000000;
+	margin-left: 5%;
+	padding: 0;
+	position:relative;
+	/*float: right;*/
+	z-index: 1000;
+	overflow:hidden;
+	max-height: 400px;
+}
+
+.Message {
+	border:1px solid #ffffff;
+	background-color:#00ffcc;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#SuperBox > .user{
+	display:none;
+}
+#box {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.user {
+	padding:0;
+	margin:0;
+	border-top-style: solid;
+	height:80px;
+	position:relative;
+	text-align:left;
+}
+.milestones{
+	border-top-style:solid;
+	text-align:center;
+}
+
+.milestones>span{
+	padding-left:20px;
+}
+
+.Message>ul>ul, .Message>ul {
+	width: 100%;
+	padding: 0;
+	list-style: none;
+	
+}
+
+
+#userName{
+	font-size:13pt;
+	font-weight:bold;
+	text-align:left;
+}
+
+.delete{
+	right:0px;
+	top:0p;
+	float:right;
+}
+
+.reply {
+	float: right;
+}
+#date{
+	position:absolute;
+	bottom:0;
+	font-size:7pt;
+	right:0px;
+}
+
+
+
+#searchList{
+	display:none;
+	position:absolute;
+	background-color:red;
+	width:350px;
+	height:flex;
+	max-height:200px;
+	z-index:1000;
+	border:2px solid #000000;
+	overflow:auto;
+}
+.ManList{
+	border:1px solid #000000;
+}
+
+#NameOfGroup{
+	float:left;
+}
+
+.isNotRead{
+	display:none;
+}
+
+.messageCode{
+	display:none;
+}
+
+.real{
+	display:none;
+}

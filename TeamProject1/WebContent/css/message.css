@@ -1,0 +1,40 @@
+.viewBox {
+   border: 1px solid black;
+   position: absolute;
+   width: 60%;
+   height:60%;
+   left: 20%;
+   margin-top: 10%;
+   z-index:2000;
+   background-color:#ffb3b3;
+   display:none;
+}
+
+.viewBox > ul {
+   list-style: none;
+}
+
+.messageView {
+   width: 90%;
+   height: 100%;
+   resize: none;
+}
+
+.viewBox > ul > li > strong {
+   font-size: 15pt;
+   margin-bottom: 10px;
+}
+
+ul > button {
+   text-align: center;
+}
+.viewBox>ul:nth-child(2){
+	height:70%;
+}
+.viewBox>ul:nth-child(2)>li{
+	height:100%;
+}
+.viewBox>ul:nth-child(3){
+	text-align:center;
+}
+

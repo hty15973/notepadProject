@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#register_box {
+    border: solid;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    padding: 3%;
+}
+
+#register_info {
+    margin-bottom: 10%;
+}
+
+#register_info > li {
+    padding: 5% 0 0 0;
+}
+
+#register_info > li > input{
+    width: 100%;
+}
+
+.register_buttons>li>button {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+
+#register_box_cancel {
+    position: absolute;
+    left: 57.5%;
+    top: 19.8%;
+    margin: 5px;
+    
+}
+
+/* --------------------------------------------------------------- */
+
+/* 회원가입 팝업 스타일 */
+
+#registerNamePopup, #registerIDPopup, #registerEmailPopup, #registerPassPopup, #registerPass2Popup, #registerPassNotEqualPopup {
+	border: solid;
+	width: 35%;
+	padding: 1%;
+	position: absolute;
+	left: 30%;
+	top: 40%;
+	background: #99ff99;
+}
+
+#registerNamePopup>ul>li, #registerIDPopup>ul>li, #registerEmailPopup>ul>li, #registerPassPopup>ul>li, #registerPass2Popup>ul>li, #registerPassNotEqualPopup>ul>li {
+	text-align: center;
+} 
+
+#registerNamePopup button, #registerIDPopup button, #registerEmailPopup button, #registerPassPopup button, #registerPass2Popup button, #registerPassNotEqualPopup button {
+	width: 80%;
+	height: 10%;
+}
+
+#sameIDBtn {
+	width: 100%;
+	margin-top: 3%;
+}
+
+/* 중복 확인 팝업창 스타일 */
+
+#sameIDPopup, #diffIDPopup {
+	border: solid;
+	width: 35%;
+	padding: 1%;
+	position: absolute;
+	left: 30%;
+	top: 40%;
+	background: #99ff99;
+}

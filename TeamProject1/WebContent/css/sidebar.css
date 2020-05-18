@@ -1,0 +1,300 @@
+.left {
+   height: 100%;
+   width: 0;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: #99ff99;
+   overflow-x: hidden;
+   transition: 0.5s;
+}
+
+.left a {
+   padding: 8px 8px 8px 32px;
+   text-decoration: none;
+   font-size: 25px;
+   color: #818181;
+   display: block;
+   transition: 0.3s;
+}
+
+.left a:hover {
+   color: #f1f1f1;
+}
+
+.left>.category {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.back, .gotoStart {
+   display: none;
+}
+
+#right {
+   transition: margin-left .5s;
+   padding: 16px;
+}
+
+.list>ul {
+   border: 2px solid #ffffff;
+   border-radius: 5px;
+   height: 30px;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   padding-right: 15px;
+   margin-bottom: 2px;
+   font-size: 20px;
+   font-weight: bold;
+   transition: margin-top .5s;
+}
+
+.list>ul>li {
+   text-align: right;
+   transition: margin-top .5s;
+}
+
+.list>ul>div {
+   height: 30px;
+   width: 100px;
+}
+
+div.list>ul>div:first-child {
+   position: relative;
+   float: right;
+   width: 30px;
+}
+
+.left {
+   height: 100%;
+   width: 0;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: #99ff99;
+   overflow-x: hidden;
+   transition: 0.5s;
+}
+
+.left a {
+   padding: 8px 8px 8px 32px;
+   text-decoration: none;
+   font-size: 25px;
+   color: #818181;
+   display: block;
+   transition: 0.3s;
+}
+
+.left a:hover {
+   color: #f1f1f1;
+}
+
+.left>.category {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.back, .gotoStart {
+   display: none;
+}
+
+#right {
+   transition: margin-left .5s;
+   padding: 16px;
+}
+
+.list>ul {
+   border: 2px solid #ffffff;
+   border-radius: 5px;
+   height: 30px;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   padding-right: 15px;
+   margin-bottom: 2px;
+   font-size: 20px;
+   font-weight: bold;
+   transition: margin-top .5s;
+}
+
+.list>ul>li {
+   text-align: right;
+   transition: margin-top .5s;
+}
+
+.list>ul>div {
+   height: 30px;
+   width: 100px;
+}
+
+div.list>ul>div:first-child {
+   position: relative;
+   float: right;
+   width: 30px;
+}
+
+.menuBox, .groupMenuBox, .groupMemberListMenuBox, .openBox{
+   margin:0;
+   padding:0;
+   min-width: 100px;
+   width: auto;
+   height: auto;
+   border: 3px solid #000000;
+   background-color: #808080;
+   list-style: none;
+   z-index: 1000;
+   text-align: center;
+   color: white;
+}
+
+.menuBoxChild, .groupMenuBoxChild, .groupMemberListMenuBoxChild, .openBoxChild{
+   border-top-style: 3px solid black;
+   z-index:1000;
+   list-style:none;
+   margin:0;
+   padding:0;
+   text-align:center;
+   position:relative;
+}
+
+.menuBoxChild:hover, .groupMenuBoxChild:hover, .groupMemberListMenuBoxChild:hover, .openBoxChild:hover{
+   background-color: #aaaaaa;
+   cursor: pointer;
+}
+
+.menuBoxChild:nth-child(1){
+   border:none;
+}
+.pagination{
+   text-align:center;
+   bottom:0%;
+   left:17%;
+   position:absolute;
+   visibility:hidden;
+}
+.pagination > a {
+   font-size: 11pt;
+   left: 5%;
+   float: left;
+   padding:5px;
+
+}
+
+
+.indexPopup {
+   z-index: 9999;
+   background-color: #00ffcc;
+   position: absolute;
+   display: none;
+   text-align: center;
+   width: 60%;
+   height: 20%;
+   list-style: none;
+   left: 20%;
+   border: 3px solid black;
+   top: 40%;
+}
+
+.indexMessagePopup{
+   z-index: 10000;
+   background-color: #00ffcc;
+   position: absolute;
+   display: none;
+   text-align: center;
+   width: 50%;
+   height: 10%;
+   list-style: none;
+   left: 25%;
+   border: 3px solid black;
+   top: 45%;
+}
+
+.indexMessagePopup>ul{
+   list-style:none;
+}
+
+.indexPopup > ul {
+   list-style: none;
+}
+
+.indexPopup > ul> li > input {
+   width: 80%;
+}
+
+#memberCheckMessage {
+   display: none;
+}
+
+.storage {
+   display: none;
+}
+
+.menuBoxChild:nth-child(1){
+   border:none;
+}
+.pagination{
+   text-align:center;
+   bottom:0%;
+   left:17%;
+   position:absolute;
+   visibility:hidden;
+}
+.pagination > a {
+   font-size: 11pt;
+   left: 5%;
+   float: left;
+   padding:5px;
+
+}
+
+
+.indexPopup {
+   z-index: 9999;
+   background-color: #00ffcc;
+   position: absolute;
+   display: none;
+   text-align: center;
+   width: 60%;
+   height: 20%;
+   list-style: none;
+   left: 20%;
+   border: 3px solid black;
+   top: 40%;
+}
+
+.indexMessagePopup{
+   z-index: 10000;
+   background-color: #00ffcc;
+   position: absolute;
+   display: none;
+   text-align: center;
+   width: 50%;
+   height: 10%;
+   list-style: none;
+   left: 25%;
+   border: 3px solid black;
+   top: 45%;
+}
+
+.indexMessagePopup>ul{
+   list-style:none;
+}
+
+.indexPopup > ul {
+   list-style: none;
+}
+
+.indexPopup > ul> li > input {
+   width: 80%;
+}
+
+#memberCheckMessage {
+   display: none;
+}
+
+.storage {
+   display: none;
+}
